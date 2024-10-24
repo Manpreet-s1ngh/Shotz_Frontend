@@ -10,7 +10,7 @@ import '../src/'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAMR5uhGzFUUO6VauAnvIYc0T8CdDQL640",
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: "sceneshare-4d1c9.firebaseapp.com",
   projectId: "sceneshare-4d84f",
   storageBucket: "sceneshare-4d84f.appspot.com",
