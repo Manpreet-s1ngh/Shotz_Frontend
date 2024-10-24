@@ -32,7 +32,6 @@ const Home = () => {
       // console.log(user);
       setLoading(false);
     } else {
-      window.alert("Please do login");
 
       navigate("/login");
     }
