@@ -10,7 +10,7 @@ import '../src/'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDQsgbyZ6LCO8MH1hF1faU30J8IJxfTvfE",
+  apiKey: "AIzaSyAMR5uhGzFUUO6VauAnvIYc0T8CdDQL640",
   authDomain: "shotzz.vercel.app",
   projectId: "sceneshare-4d84f",
   storageBucket: "sceneshare-4d84f.appspot.com",
