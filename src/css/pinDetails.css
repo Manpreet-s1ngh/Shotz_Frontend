@@ -1,0 +1,268 @@
+.commentsContainer {
+      
+    padding: 20px 0;
+  max-height: 400px; /* Set a max height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; 
+  transition: max-height 0.3s ease; /* Smooth transition for height change */
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.commentsContainer.full {
+  max-height: none; /* Remove max height when showing all */
+}
+.postComment {
+
+  display: flex; /* Align items in a row */
+  align-items: center; /* Vertically align items */
+  gap: 10px; /* Add space between elements */
+  padding: 20px 10px; /* Padding around the comment section */
+  border: 1px solid #e1e1e1; /* Border around the container */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin:  2rem 0; /* Space above the comment section */
+}
+
+.userPhoto {
+  width: 60px; /* User photo size */
+  height: 60px; /* Maintain square aspect ratio */
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensure image fits inside */
+}
+
+.commentInput {
+    /* width: 100%; */
+  flex: 1; /* Take up all available space for the input */
+  padding: 10px; /* Padding inside input */
+  border: 1px solid #ccc; /* Border for input */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 1.1rem; /* Font size */
+  transition: border-color 0.3s ease; /* Smooth border transition */
+  padding: 10px 10px;
+  border:none;
+}
+
+.commentInput:focus {
+  outline: none; /* Remove default outline */
+  border-color: #66b3ff; /* Border color change on focus */
+}
+
+.postCommentButton {
+
+    
+  background-color: #0167cd; /* Primary button color */
+  color: white; /* Text color */
+  border: none; /* Remove default border */
+  border-radius: 40px; /* Rounded corners */
+  padding: 13px 30px; /* Padding inside button */
+  font-size: 1rem; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  white-space: nowrap; /* Prevent text from wrapping */
+  flex-shrink: 0; /* Ensure button doesn’t shrink */
+}
+
+.postCommentButton:hover {
+  background-color: #004274; /* Slightly darker shade on hover */
+}
+
+
+.pinDetailMainContainer{
+  width: full;
+}
+
+.pinDetailPart{
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+
+}
+
+.pinImageBackground{
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+}
+.pinImage1{
+
+   margin: 0 auto;
+  width: fit-content;
+ padding: 10px 20px;
+  
+ background-color: white;
+   box-shadow:2px 2px 5px rgb(164, 164, 164);
+}
+
+.detailpinImage{
+  border-radius: 10px;
+  height: 600px;
+  width:fit-content;
+  max-width: 100%;
+  align-self: center;
+  cursor: pointer;
+
+}
+
+
+.detailpinImage:hover{
+  border-radius: 25px;
+  box-shadow: none;
+  
+}
+
+.pinInfo{
+  /* background-color: white ; */
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+
+.pinInfo .destination{
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: rgb(0, 148, 175);
+  border-radius: 20px;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border:1px solid rgb(0, 148, 175);
+}
+
+.pinInfo .destination:hover{
+ 
+ color: rgb(0, 148, 175);
+  background-color: white;
+  border:1px solid rgb(0, 148, 175);
+}
+
+
+.pinInfo .savePinButton{
+  
+  font-size: 1rem;
+  border:1px solid red;
+  padding: 10px 50px;
+  border-radius: 50px;
+  outline: none;
+ color: red;
+  background-color: white;
+  font-weight: bold;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pinInfo .savePinButton:hover{
+  
+  cursor: pointer;
+   background-color: red;
+  color: white;
+}
+
+.pinInfo .inner{
+  display: flex;
+  align-items: center;
+}
+
+
+
+.pinInfo .downloadButton{
+  margin: 0 1rem;
+  border:1px solid red;
+  padding: 10px 50px;
+  border-radius: 50px;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ align-self: center;
+ text-decoration: none;
+ 
+}
+
+
+.pinInfo .downloadButton:hover{
+  cursor: pointer;
+  color: red;
+  background-color: white;
+}
+
+
+.pinDetailAll{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: none;
+    margin: none;
+    background-color: white;
+    padding: 10px 20px 30px 20px;
+    border-radius: 20px;
+}
+
+.pinDetailAll .pinDetailTitle{
+    border: none;
+    padding: none;
+    font-size: 3.4rem;
+    margin: none;
+}
+
+.pinDetailAll .pinDetailDescription{
+    padding: none;
+    margin: none;
+    margin-top: -10px;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.pinDetailAll .pinDetailCategory{
+    font-size: 1.5rem;
+}
+
+.pinDetailUserDiv{
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+}
+
+.pinDetailUserDiv .pinDetailUserProfileImage{
+    width: 50px;
+    height: 50px;
+   
+    border: 2px solid rgb(2, 73, 75);
+    border-radius: 50%;
+
+    padding: 2px;
+    object-fit: cover;
+    box-shadow: 1px 2px  10px rgb(180, 180, 180);
+}
+
+.pinDetailUserName{
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+
+
+
+.commentSectionControl{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commentSectionButton{
+    
+    height: fit-content;
+    padding: 5px 30px;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    background-color: none;
+}
+
+.commentSectionButton:hover{
+    background-color: white;
+    cursor: pointer;    
+}

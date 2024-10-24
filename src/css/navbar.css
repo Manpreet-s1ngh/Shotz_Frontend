@@ -1,0 +1,66 @@
+
+.navbar{
+    padding: 5px;
+   
+    
+}
+
+.searchContainer{
+
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    align-items: center;
+     border-radius: 10px;
+}
+
+.searchIcon{
+    font-size: 30px;
+    margin-right: 10px;
+    
+   
+}
+.searchInput{
+    width: 100%;
+    font-size: 20px;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.searchInput:focus-within{
+   
+
+  outline: none;
+    border: none;
+    
+}
+
+.tapuser{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+     box-shadow: rgb(134, 134, 134) 1px 1px 5px;
+    
+}
+.tapuser:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+}
+
+.plusIcon{
+    font-size: 50px;
+    color: red;
+    margin: 0 20px;
+    border-radius: 50%;
+    
+}
+
+.plusIcon:hover{
+     transform: scale(1.1);
+    transition: transform 0.2s ease-in; 
+     /* box-shadow: rgb(201, 201, 201) 1px 1px 10px; */
+}
+
+

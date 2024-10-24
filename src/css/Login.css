@@ -1,0 +1,83 @@
+
+.loginContainer{
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+ .logoVideo{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.loginContainer .loginBox{
+    
+     width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.loginBox .loginInfo{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+   font-family:serif;
+  
+}
+.loginInfo .camera{
+    color: red;
+    text-shadow: 2px 2px 5px black;
+    font-size: 50PX;
+}
+
+.loginInfo .appname{
+    text-shadow: 2px 2px 4px black;
+}
+
+.loginBox .loginGoogle{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 0px  20px;
+    border-radius: 40px;
+    cursor: pointer;
+    
+}
+
+.loginGoogle:hover{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.loginGoogle .googleIcon{
+    font-size: 20px;
+    padding-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+.loginGoogle p{
+    
+    font-weight: 600;
+}
+
+
+.tempuser{
+    margin-top: 15px;
+opacity: 0.5;
+}
