@@ -11,7 +11,7 @@ import '../src/'
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: "AIzaSyAMR5uhGzFUUO6VauAnvIYc0T8CdDQL640",
-  authDomain: "https://shotzz.vercel.app/",
+  authDomain: "sceneshare-4d1c9.firebaseapp.com",
   projectId: "sceneshare-4d84f",
   storageBucket: "sceneshare-4d84f.appspot.com",
   messagingSenderId: "834554138122",
