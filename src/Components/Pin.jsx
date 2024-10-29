@@ -38,7 +38,7 @@ const Pin = ({ pin, currentUser, userChoice }) => {
   const [toggle, setToggle] = useState(0);
 
   useEffect(() => {
-    savingPost();
+    // savingPost();
   }, []);
 
   async function savingPost() {
@@ -51,6 +51,8 @@ const Pin = ({ pin, currentUser, userChoice }) => {
       setAlreadySaved("notSaved");
       setSavedPostId(null);
     }
+setPostHovered(true);
+    return true;
   }
 
   const { title, post, postedDate, user, category, postedbBy } = pin;
@@ -252,7 +254,7 @@ const Pin = ({ pin, currentUser, userChoice }) => {
   return (
     <div
       className="PinContainer"
-      onMouseEnter={() => setPostHovered(true)}
+      onMouseEnter={() => savingPost()}
       onMouseLeave={() => setPostHovered(false)}
       onClick={() => gotoPinDetail()}
     >
